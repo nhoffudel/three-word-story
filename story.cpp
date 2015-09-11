@@ -2,10 +2,8 @@
 #include "story.h"
 using namespace std;
 
-int main(){
-    String str;
-    int add_to_story(){
-    cout<<"Enter three words: ";
-    cin>>str;
-    return 0;
+int add_to_story(string s) {
+        the_story.append(s);
+        return 0;
     }
+    
